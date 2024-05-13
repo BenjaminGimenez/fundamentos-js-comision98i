@@ -10,7 +10,7 @@ const recargar = () => {
 
 //clearTimeout(id); //Cancela la ejecución de un temporizador creado con setTimeout.
 
-//clearInterval(id); //Detiene la ejecución de un temporizador creado con setInterval.
+//gclearInterval(id); //Detiene la ejecución de un temporizador creado con setInterval.
 
 // Ejecutar una función después de 2 segundos
 setTimeout(function() {
