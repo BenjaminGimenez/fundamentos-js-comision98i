@@ -35,3 +35,16 @@ contenedorLista.appendChild(ul);
 
 //primero se hace referencia al padre y despues al hijo
 document.querySelector('#fila').removeChild(document.querySelector('#parrafo2'));
+
+
+//reemplazando un elemento
+
+//creamos el elemento por el cual remplazaremos
+const enlace = document.createElement('a');
+enlace.href = 'https://github.com/';
+enlace.target = '_blanck';
+enlace.innerText = 'suscribete';
+
+//seleccionamos el elemento que vamos a reemplazar
+document.querySelector('#fila').replaceChild(enlace, document.querySelector('#parrafo1'));
+
